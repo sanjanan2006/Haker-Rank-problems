@@ -1,6 +1,26 @@
-## hakerrank solutions
+## hakerrank solutions based on airthematic operation
 if __name__ == '__main__':
     a = int(input())
     b = int(input())
     print(a//b)
     print(a/b)
+
+## solution based on voting eligibilty by using comparison operator
+'''python
+age=int(input())
+if age>=18:
+    print("elligible to vote")
+else:
+    print("not elligible to vote")
+'''
+
+## code based on printing positive and negative number by using comparision operation
+'''python
+n=int(input())
+if n>0 :
+    print("positive")
+elif n<0 :
+    print("negative")
+else:
+    print("zero")  
+'''
